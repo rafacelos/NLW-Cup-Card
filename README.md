@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img alt="NLW Cup Card preview image" src=".github/project.png" width="100%">
+  <img alt="NLW Cup Card preview image" src="./assets/project.png" width="100%">
 </p>
 
 ## 🚀 Technologies
