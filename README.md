@@ -37,7 +37,7 @@ This project was developed with the following technologies:
 
 ## 🔖 Layout
 
-You can view the project layout through [THIS LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). You must have a [Figma](https://figma.com) account to access it.
+You can view the project layout through [THIS LINK](https://www.figma.com/file/mlWIwGGBVlSJOU31T6p4SZ/NLW-Copa-Card-(Copy)?node-id=0%3A1). You must have a [Figma](https://figma.com) account to access it.
 
 ## :memo: License
 
