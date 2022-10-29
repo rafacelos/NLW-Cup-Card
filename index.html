@@ -22,17 +22,40 @@
     </header>
 
     <div class="card">
-      <img src="https://github.com/rafacelos.png" alt="Card User Picture" />
+      <div id="user-pic"></div>
       <div class="info">
-        <h1>Rafael Vasconcelos</h1>
-        <p>Student at RocketSeat</p>
+        <div class="info-wrapper">
+          <h1 id="cardName">Rafael Vasconcelos</h1>
+          <p>Student at RocketSeat</p>
+        </div>
+        <div class="info-wrapper">
+          <img class="chosen-flag" src="./assets/flag-brazil.svg" alt="bandeira selecionada">
+          <img class="chosen-flag" src="./assets/flag-japan.svg" alt="bandeira do Japao">
+          <img class="chosen-flag" src="./assets/flag-german.svg" alt="bandeira da Alemanha">
+          <img class="chosen-flag" src="./assets/flag-french.svg" alt="bandeira da França">
+        </div>
       </div>
     </div>
-
-    <h2>Escolha a Trilha</h2>
     <div id="choseTrack">
       <img src="./assets/explorer-track.svg" alt="logo da trilha explorer">
       <img src="./assets/ignite-track.svg" alt="logo da trilha ignite">
+    </div>
+
+    <div class="user-panel">
+      <div class="input-wrapper">
+        <label for="git-name">Digite o seu nome do Github:</label>
+        <input id="git-name" type="text" maxlength="20">
+        <button onclick="captureInput()">Personalizar</button>
+      </div>
+      <div class="team-selection">
+        <h2>Qual o seu time do evento?</h2>
+        <div class="flags">
+          <img class="button-flag" src="./assets/flag-brazil.svg" alt="bandeira do Brasil">
+          <img class="button-flag" src="./assets/flag-japan.svg" alt="bandeira do Japao">
+          <img class="button-flag" src="./assets/flag-german.svg" alt="bandeira da Alemanha">
+          <img class="button-flag" src="./assets/flag-french.svg" alt="bandeira da França">
+        </div>
+      </div>
     </div>
 
     <script src="./script.js"></script>
